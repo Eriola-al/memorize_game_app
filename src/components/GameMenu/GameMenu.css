@@ -1,0 +1,79 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; }
+
+.boxWrapper {
+    height: 360px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+
+#box1 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#box2 {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#box3 {
+    flex: 1;
+    margin: 10px 15px 70px 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#box4{
+    flex: 1;
+    margin: 10px 10px 70px 15px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+#box5 {
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+.gameDescription{
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    color: white; 
+    padding: 15px 50px; 
+    width: 80%; 
+    display: block; 
+    margin: 10px 15px 0px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold; }
+
+.callToAction button{
+    background-color: rgba(0, 0, 0, 0.4); 
+    border: thin rgba(0, 0, 0, 0.4); 
+    border-radius: 8px;
+    color: white; 
+    padding: 10px 70px; 
+    cursor: pointer; 
+    width: 95.7%; 
+    display: block; 
+    margin: 0px 0px 10px 20px;
+    font-size: 15px;
+    font-weight: bold; }
+
+.callToAction button:focus {
+    background-color: rgba(1, 4, 10, 0.85);}
+

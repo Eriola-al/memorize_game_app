@@ -1,0 +1,18 @@
+.buttonGroup button{
+    background-color: rgba(0, 0, 0, 0.3); 
+    border: thin; 
+    color: white; 
+    padding: 15px 10px; 
+    cursor: pointer; 
+    width: 93%; 
+    display: block; 
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 0px; }
+
+.buttonGroup button:first-child {
+    margin-top: 20px; }
+
+.buttonGroup button:focus {
+    background-color: rgba(1, 4, 10, 0.85);}
